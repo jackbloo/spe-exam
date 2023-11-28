@@ -52,6 +52,7 @@ const Shop = () => {
     let copyTotal: any = [...total]
     copyTotal[index] = data * price
     setQuantity(copyQuantity)
+    setTotal(copyTotal)
   }
   useEffect(() => {
     getData()
